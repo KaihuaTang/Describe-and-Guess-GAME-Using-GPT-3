@@ -16,6 +16,10 @@ pip install openai
 
 # How to play the game
 
+```
+python DescribeGuess.py
+```
+
 First, you need to specify the knowledege domain and question type.
 
 Next, we will choose a random answer from 10 candidates based on the knowledege of GPT-3.
