@@ -31,7 +31,7 @@ if ans_index < 10:
 print('='*25 + ' Game Start! Please ask questions about the _GUESS_WORD_ ' + '='*25)
 
 success = False
-for i in range(5):
+for i in range(10):
     print('='*25 + ' Round {} '.format(str(i)) + '='*25)
     print('Enter your questions or answers, using _GUESS_WORD_ to represent the guessing word:')
     ques_ans = input()
